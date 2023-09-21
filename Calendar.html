@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='./Calendar.css' />
+</head>
+
+<body>
+    <div class='main'>
+        <div class='month'>
+            <h1 style="color: white;">Սեպտեմբեր</h1>
+            <h2 style="color: white;">2023</h2>
+        </div>
+        <ul class="weakDays">
+            <li>Երկ</li>
+            <li>Երք</li>
+            <li>Չրք</li>
+            <li>Հնգ</li>
+            <li>ՈՒրբ</li>
+            <li>Շբթ</li>
+            <li>Կիր</li>
+        </ul>
+        <ul class='daysWrapper'>
+
+        </ul>
+
+        <input id='day' type='number' placeholder="Օր" min="1" max="30" />
+        <input class='num' type='number' placeholder="*Ամիս*" min="1" max="12" />
+        <input class='num' type='number' placeholder="*Տարի*" min="2001" max="2023" /> <br>
+        <textarea placeholder="Մանրամասներ․․․" class='discription' rows="2" cols="50"></textarea><br>
+        <button class='btn'>Ավելացնել իրադարձություն</button>
+
+    </div>
+
+    <script src=' ./Calendar.js'></script>
+</body>
+
+</html>
